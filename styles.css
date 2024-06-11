@@ -3,14 +3,18 @@ body, html {
     padding: 0;
 }
 
-img {
+.main {
+    margin-top: 100px;
+}
+
+.logo-img {
     width: 30%;
     display: block;
     margin: 100px auto 20px;
     min-width: 272px;
 }
 
-input {
+.search-input {
     box-sizing: border-box;
     display: block;
     border-radius: 24px;
@@ -23,18 +27,25 @@ input {
     font-size: 16px;
 }
 
-button {
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.btn {
     box-sizing: border-box;
+    margin-left: 4px;
+    margin-right: 4px;
     margin-top: 0;
     padding: 0 16px;
     font-size: 14px;
     height: 36px;
-    background-color: #f8f9fa;
+    background-color: #dfe1e5;
     border: 1px solid #f8f9fa;
+    border-radius: 4px;
     cursor: pointer;
 }
 
-button:first-of-type {
+/*button:first-of-type {
     margin-right: 8px;
     margin-left: calc(50% - 131.5px);
 }
@@ -42,3 +53,4 @@ button:first-of-type {
 button::hover {
     cursor: pointer;
 }
+*/
